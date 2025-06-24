@@ -5,7 +5,7 @@ A LangGraph-based classification pipeline that not only performs predictions but
 ## Features
 
 - **Fallback System**: detects low-confidence predictions and asks for user clarification
-- **Classification Optimized**: S=suggests the opposite label when confidence is low
+- **Classification Optimized**: suggests the opposite label when confidence is low
 - **Beautiful CLI Interface**: Rich terminal interface with progress bars, panels, and colored output
 - **Comprehensive Logging**: all decisions, predictions, and user interactions are logged to JSON files
 - **LangGraph Workflow**: modular, graph-based processing pipeline with clear node separation
