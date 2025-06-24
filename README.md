@@ -93,7 +93,7 @@ The CLI provides:
 - **Confidence visualization** with progress bars
 - **Smart prompting** for binary classification tasks
 
-### Example Session
+### Run Example
 
 ```
 Text Classification with Self-Healing Fallback
@@ -147,6 +147,29 @@ User: yes/no
 [Process Clarification]
     ↓
 [Final Result]
+```
+
+## Example reviews for testing the model
+```
+The acting is terrible but somehow that makes it more entertaining.
+
+Great cinematography, shame there's no actual story to film.
+
+I loved hating every minute of this disaster.
+
+My kids adored it. I wanted to leave halfway through.
+
+Technically brilliant but emotionally vacant masterpiece.
+
+So bad it's almost good. Almost.
+
+Beautiful failure that somehow works despite itself.
+
+Outstanding performances in service of absolutely nothing.
+
+This movie tried so hard to be profound. Bless its heart.
+
+The plot was thin but the visuals were stunning.
 ```
 
 ## Links
