@@ -196,5 +196,5 @@ The plot was thin but the visuals were stunning.
 ## Links
 
 - **Fine-tuned Model**: [multiheadattn/my_awesome_model](https://huggingface.co/multiheadattn/my_awesome_model)
-
+- - **Walkthrough video**: [watch](https://www.loom.com/share/b6d6585d11d54ca6999117c40a7738e8?sid=8d66113b-250f-4cb8-b7fa-4f2a442cb655)
 ---
