@@ -10,6 +10,27 @@ A LangGraph-based classification pipeline that not only performs predictions but
 - **Comprehensive Logging**: all decisions, predictions, and user interactions are logged to JSON files
 - **LangGraph Workflow**: modular, graph-based processing pipeline with clear node separation
 
+## Workflow
+
+```mermaid
+graph TD
+    A[Input Text] --> B{Entry Point Router};
+    B -->|New Request| C[Inference Node];
+    B -->|User Feedback| H[Process Clarification Node];
+    
+    C --> D[Confidence Check Node];
+    D --> E{Confidence >= 75%?};
+    
+    E -->|Yes| F[Final Result];
+    E -->|No| G[Fallback Node];
+    
+    G --> I[User Prompt];
+    I --> J[User Response];
+    J --> H;
+    H --> F;
+
+    F --> K[End];
+```
 
 ## Node Descriptions
 
